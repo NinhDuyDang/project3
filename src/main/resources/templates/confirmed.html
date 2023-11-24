@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirm email</title>
+</head>
+<body>
+<th:block th:if="${status == 'successfulConfirmation'}">
+    Successful Confirmation!
+</th:block>
+<th:block th:if="${status == 'tokenNotFound'}">
+    Token Not Found!
+</th:block>
+<th:block th:if="${status == 'emailAlreadyConfirmed'}">
+    Email Already Confirmed!
+</th:block>
+<th:block th:if="${status == 'tokenExpired'}">
+    Token Expired!
+</th:block>
+
+</body>
+</html>

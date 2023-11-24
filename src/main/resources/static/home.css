@@ -1,0 +1,27 @@
+div h6 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+div p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+a{
+    color: rgb(8, 114, 253);
+    outline: none;
+    text-decoration: none;
+}
+.fa-heart{
+    color: rgb(53, 53, 53);
+
+}
+.fa-heart:hover{
+    color: red;
+    cursor: pointer;
+}
